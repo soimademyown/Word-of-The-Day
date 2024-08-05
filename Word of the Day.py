@@ -15,14 +15,15 @@ def wordCount():
     for words in f.readline():                                          #counts number of words
         count += 1
     return count
-
+"""
 def wordSelectRndm():
     j = random.randomint(1, 100)
     while i != j:
-        for 
         f = open("wordsList.txt", "r")
-        
+        for i, k in f.readline().enumerate():
     return selectedWord
+"""            
+        
 
 def wordShow():
     index = 0

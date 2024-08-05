@@ -25,9 +25,11 @@ def wordSelectRndm():
     return selectedWord
 
 def wordShow():
+    index = 0
     f = open("wordsList.txt", "r")
     for words in f.readline():
-        print(f"{words}\n")
+        index += 1
+        print(f"{index}. {words}\n")
     f.close()
 
 while True:                                                                         #Menu
